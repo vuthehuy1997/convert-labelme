@@ -65,6 +65,6 @@ if __name__ == '__main__':
         labelme2recog(label_filepath)
 
     for key in LABELS:
-        with open(os.path.join(RECOG_DIR, 'trc_' + key + '.txt'), 'w') as f:
+        with open(os.path.join(RECOG_DIR, 'don_thuoc_' + key + '.txt'), 'w') as f:
             for v in LABELS[key]:
                 f.write(v + '\n')
